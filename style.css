@@ -1,0 +1,75 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    width : 100vw;
+    height : 100vh;
+}
+.container{
+    width : 100vw;
+    height : calc(100vh - 65px);
+    background : linear-gradient(315deg,#2a0237,#022143);
+    overflow : auto;
+}
+.des{
+    width : 80%;
+    position : relative;
+    top : 5%;
+    left : 50%;
+    transform : translateX(-50%);
+}
+.txbox{
+    font-size: 12px;
+    background : rgba(255, 255, 255,0.7);
+    color : rgb(63, 63, 63);
+    border-radius : 20px;
+    border-style: none;
+    padding : 10px 20px;
+    margin : 20px;
+}
+
+.inputC{
+    background : rgb(43, 43, 43);
+    width : 100vw;
+    height : 80px;
+    position : fixed;
+    bottom : 0;
+    align-items: center;
+    z-index : 999;
+    display : flex;
+    justify-content: space-between;
+}
+.inputFile{
+    width : 60px;
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin : 20px;
+}
+#tx{
+    width : 100%;
+    height : 40px;
+    font-size : 12px;
+    border-radius : 40px;
+    border-style: none;
+    padding : 0 30px;
+    position : relative;
+    
+    margin-left : 30px;
+    margin-right : 0;
+}
+#fs{
+    display : none;
+}
+#fsLabel{
+    cursor : pointer;
+}
+#fsLabel img{
+    width : 30px;
+    height : 30px;
+}
+#tx:focus{
+    outline : none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <script defer src='./write.js'></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = 'container'>
+        <div class='des'>
+            <div class='txbox'>
+                대화를 시작해보세요
+            </div>
+        </div>
+    </div>
+
+    <div class='inputC'>
+        <input type='text' value='' id='tx' onkeydown="enter()">
+
+        <div class='inputFile'>
+            <label for='fs' id='fsLabel'><img src='image/fileicon.png'></label>
+            <input type='file' id='fs' onchange='Ca()'>
+        </div>
+    </div>
+</body>
+</html>
